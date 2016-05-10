@@ -1,15 +1,272 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zill Ding</title>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <title>Zill Ding</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+  <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="/dist/bundle.js"></script>
-  </body>
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar-wrapper">
+      <div class="profile-container">
+        <img class="profile" src="http://www.gravatar.com/avatar/9af45a0d5e1c3330dfb195733953b63c?s=100" alt="" style="border-radius: 50px" />
+        <h1 class="name">Zeyu Ding (Zill)</h1>
+        <h3 class="tagline">Full Stack Developer</h3>
+      </div><!--//profile-container-->
+
+      <div class="contact-container container-block">
+        <ul class="list-unstyled contact-list">
+          <li class="email"><i class="fa fa-envelope"></i><a href="mailto: zilldzy@gmail.com">zilldzy@gmail.com</a></li>
+          <li class="website"><i class="fa fa-globe"></i><a href="https://zillding.github.io" target="_blank">zillding.github.io</a></li>
+          <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://sg.linkedin.com/in/zeyuding" target="_blank">linkedin.com/in/zeyuding</a></li>
+          <li class="github"><i class="fa fa-github"></i><a href="https://github.com/zillding" target="_blank">github.com/zillding</a></li>
+          <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/ZillDing" target="_blank">@ZillDing</a></li>
+          <li class="medium"><i class="fa fa-medium"></i><a href="https://medium.com/@ZillDing" target="_blank">@ZillDing</a></li>
+        </ul>
+      </div><!--//contact-container-->
+      <div class="education-container container-block">
+        <h2 class="container-block-title">Education</h2>
+        <div class="item">
+          <h4 class="degree">Master of Computing</h4>
+          <h5 class="meta">National University of Singapore</h5>
+          <div class="time">2014 - 2016</div>
+        </div><!--//item-->
+        <div class="item">
+          <h4 class="degree">Bachelor of Engineering</h4>
+          <h5 class="meta">Nanyang Technological University</h5>
+          <div class="time">2009 - 2013</div>
+        </div><!--//item-->
+      </div><!--//education-container-->
+
+      <div class="languages-container container-block">
+        <h2 class="container-block-title">Languages</h2>
+        <ul class="list-unstyled interests-list">
+          <li>Mandarin <span class="lang-desc">(Native)</span></li>
+          <li>English <span class="lang-desc">(Professional)</span></li>
+        </ul>
+      </div><!--//interests-->
+
+      <div class="interests-container container-block">
+        <h2 class="container-block-title">Interests</h2>
+        <ul class="list-unstyled interests-list">
+          <li>Basketball</li>
+          <li>Reading</li>
+          <li>Movies</li>
+        </ul>
+      </div><!--//interests-->
+
+    </div><!--//sidebar-wrapper-->
+
+    <div class="main-wrapper">
+
+      <section class="section summary-section">
+        <h2 class="section-title"><i class="fa fa-user"></i>Personal Summary</h2>
+        <div class="summary">
+          <p>Full stack developer. In love with the open-source community. Spend most of the time on front-end development/design. Passionate about all kinds of new technology, tools and frameworks. HTML5, Nodejs, Angular, Reactjs, Meteorjs... Enjoy reading tech related news and articles. A true believer of the web and optimistic about the future. Always striving to be a better person.</p>
+        </div><!--//summary-->
+      </section><!--//section-->
+
+      <section class="section experiences-section">
+        <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Consultant</h3>
+              <div class="time">2013 - Present</div>
+            </div><!--//upper-row-->
+            <div class="company">IBM Singapore</div>
+          </div><!--//meta-->
+          <div class="details">
+            <ui>
+              <li>Helped test and integrate ATM applications for banks</li>
+              <li>Helped develop Ticketing system and CMS console web application for branches</li>
+              <li>Developed multiple front-end JavaScript modules for client web application</li>
+              <li>Introduced and trained the team about new front-end dev tools and frameworks to improve dev workflow</li>
+            </ui>
+          </div><!--//details-->
+        </div><!--//item-->
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Front Office Technology Analyst (Internship)</h3>
+              <div class="time">Summer 2012</div>
+            </div><!--//upper-row-->
+            <div class="company">BP Singapore</div>
+          </div><!--//meta-->
+          <div class="details">
+            <ul>
+              <li>Independently worked on the project Front office Framework (FoF) and created more than fifty web scrapes to retrieve information from the websites and upload to database</li>
+            </ul>
+          </div><!--//details-->
+        </div><!--//item-->
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Electronic Trading Data Analyst (Internship)</h3>
+              <div class="time">2011 - 2012</div>
+            </div><!--//upper-row-->
+            <div class="company">Bank of America Merrill Lynch</div>
+          </div><!--//meta-->
+          <div class="details">
+            <ul>
+              <li>Maintained information system to ensure data integrity and availability</li>
+              <li>Created several server jobs by writing bash scripts to automated certain system process</li>
+              <li>Explored a real time database system kdb+ and created more than twenty scripts to query the database to generate data reports for system migration</li>
+              <li>Initiated a rule-based engine to automate verification of transaction messages and improve data sanitisation efficiency</li>
+            </ul>
+          </div><!--//details-->
+        </div><!--//item-->
+
+      </section><!--//section-->
+
+      <section class="section projects-section">
+        <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+        <div class="intro">
+          <p>Side projects and open source libraries.</p>
+        </div><!--//intro-->
+
+        <div class="item">
+          <span class="project-title"><a href="https://www.npmjs.com/package/react-echarts-component">React Echarts Component</a></span> - <span class="project-tagline">A js charting library <a href="http://echarts.baidu.com/">echarts</a> component for React.</span>
+        </div><!--//item-->
+
+        <div class="item">
+          <span class="project-title"><a href="http://zillding.github.io/js-playground/" target="_blank">JS Playground</a></span> - <span class="project-tagline">A JavaScript code playground for testing code snippets.</span>
+        </div><!--//item-->
+
+        <div class="item">
+          <span class="project-title"><a href="http://zillding.github.io/websocket-tester/" target="_blank">Websocket Tester</a></span> -
+          <span class="project-tagline">A simple generic websocket tester.</span>
+        </div><!--//item-->
+
+        <div class="item">
+          <span class="project-title"><a href="https://www.npmjs.com/package/@zillding/react-console" target="_blank">React Console</a></span> - <span class="project-tagline">A Chrome developer console like component for React.</span>
+        </div><!--//item-->
+
+        <div class="item">
+          <span class="project-title"><a href="https://github.com/zillding/git-repo-server" target="_blank">Git Repo</a></span> - <span class="project-tagline">A Node web application to provide UI to manage local git repositories.</span>
+        </div><!--//item-->
+
+        <div class="item">
+          <span class="project-title"><a href="http://zillding.mybluemix.net/" target="_blank">Singapore Education Stats</a></span> - <span class="project-tagline">A site to display singapore education stats. (school project)</span>
+        </div><!--//item-->
+      </section><!--//section-->
+
+      <section class="skills-section section">
+        <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+        <div class="skillset">
+          <div class="item">
+            <h3 class="level-title">HTML &amp; CSS</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="95%">
+              </div>
+            </div><!--//level-bar-->
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">JavaScript, es2015, CoffeeScript</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="98%">
+              </div>
+            </div><!--//level-bar-->
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">NodeJS, PHP</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="90%">
+              </div>
+            </div><!--//level-bar-->
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">ReactJS, AngularJS, MeteorJS</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="95%">
+              </div>
+            </div><!--//level-bar-->
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Webpack, Gulp, Grunt</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="95%">
+              </div>
+            </div><!--//level-bar-->
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Python, Shell scripting, Perl</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="85%">
+              </div>
+            </div><!--//level-bar-->
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">MongoDB, RethinkDB, CouchDB, MySQL</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="80%">
+              </div>
+            </div><!--//level-bar-->
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Java, Swift</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="60%">
+              </div>
+            </div><!--//level-bar-->
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Mac OS, Windows, Linux</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="90%">
+              </div>
+            </div><!--//level-bar-->
+          </div><!--//item-->
+
+        </div>
+      </section><!--//skills-section-->
+
+    </div><!--//main-body-->
+  </div>
+
+  <footer class="footer">
+    <div class="text-center">
+        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+        <small class="copyright">Thanks to <i class="fa fa-heart"></i> <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for the template</small>
+    </div><!--//container-->
+  </footer><!--//footer-->
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
 </html>
